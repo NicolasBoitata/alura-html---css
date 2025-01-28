@@ -21,3 +21,4 @@
 <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 <img align="right" alt="Nicolas-Gif" src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif">
 </div>
+![cursed-emoji](https://github.com/user-attachments/assets/ccbbfb43-4d83-4201-b761-944787b71c1b)
