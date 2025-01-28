@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+strong{
+    color: blue !important;
+}
+.item {
+    display: inline;
+    margin-right: 10px; /* Espaço entre os objetos */
+  }
+
+  .containers {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 300px;
+}
+
+body {
+    font-family: sans-serif; /* Fonte simples */
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0; /* Remove as margens padrão do body */
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 50px; /* Espaçamento entre texto e imagem */
+}
+
+.text-content {
+    text-align: left;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.description {
+    line-height: 1.6;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.button {
+    background-color: deepskyblue;
+    color: black;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.button:hover {
+    background-color: #00bfff; /* Cor mais clara ao passar o mouse */
+    color: white; /* Texto mais claro ao passar o mouse */
+
+}
+
+
+.image-container {
+    position: relative; /* Para posicionar os elementos decorativos */
+    width: 350px; /* Largura da imagem */
+    height: 380px; /* Altura da imagem */
+    margin-top: 15%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-left {
+    top: -10px;
+    left: -10px;
+    width: 150px;
+    height: 200px;
+}
