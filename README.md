@@ -20,12 +20,6 @@
 <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 <img align="right" height="100" width="100" src="media/cursed-emoji.gif"/>
-<img align="right" alt="Rafa-yoda" src="https://cdn.discordapp.com/attachments/795358919417397249/825430589581688872/hi.gif">
+<img align="right" alt="Rafa-yoda" style="display: block; margin: 0 auto;" src="https://cdn.discordapp.com/attachments/795358919417397249/825430589581688872/hi.gif">
+<!--<img align="right" alt="Rafa-yoda" src="https://cdn.discordapp.com/attachments/795358919417397249/825430589581688872/hi.gif"> -->
 </div>
-
-![cursed-emoji](https://github.com/user-attachments/assets/eaf4deb9-aa4f-4017-9180-c4a2f650ca1e)
-
-https://github.com/user-attachments/assets/e53b7f63-52ad-4c53-837c-ce53442a5083
-
-
-
