@@ -15,11 +15,13 @@ body{
     padding:12px;
     width:300px;
 }
-
+/* menu de navegação */
 .sidebar__navigation{
     background-color: #121212;
     border-radius:8px;
     padding:16px 0 0 16px;
+    /*  */
+    margin: 0%;
 }
 
 .logo{
@@ -40,6 +42,10 @@ body{
 
 .sidebar ul li{
     padding: 10px 0;
+}
+
+li{
+    color: #b3b3b3;
 }
 
 .sidebar nav ul li a{
@@ -279,10 +285,11 @@ body {
 /* imersão 3 */
 
 /*PlayList */
+/* importanter para ver menu de Play */
 .playlist-container{
 height: 68vh;
 padding-top: 16px;
-margin: 10px;
+margin: 10px 330px;
 border-radius: 10px;
 background-color: #121212;
 }

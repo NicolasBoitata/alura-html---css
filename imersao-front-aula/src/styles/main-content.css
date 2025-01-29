@@ -9,6 +9,7 @@
     margin-right: 56px;
 }
 
+/* nav bar e o menu de playlist */
 .header__navigation{
     display: flex;
     justify-content: space-between;
@@ -17,6 +18,7 @@
     margin: 10px;
     border-radius: 8px;
     background-color: #121212;
+    margin-left: 330px;
 }
 
 .header__navigation .navigation{
@@ -40,12 +42,6 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;
-}
-
-
-.header__login{
-    display: flex;
-    align-items: center;
 }
 
 .header__search{
@@ -76,12 +72,20 @@
     outline: none;
 }
 
+.header__login{
+    display: flex;
+    align-items: center;
+}
+
 .header__login .subscribe{
     color: #a7a7a7;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border-radius: 40px;
+    border: none;
+    
 }
 
 .header__login .login{
@@ -89,7 +93,7 @@
     height: 48px;
     color: #000;
     font-size: 16px;
-    font-weight: 700;
     border-radius: 40px;
+    border: none;
 }
 /* imersão 3  */
