@@ -1,4 +1,4 @@
-# Imersão Front-End: Spotifyy
+# Imersão Front-End: Spotify
 
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" height="100" width="100"/>
