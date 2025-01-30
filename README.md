@@ -13,7 +13,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="72" width="72" margin-botton="30"/>
 
-# POR QUÊ ESTOU AQUI...
+# POR QUE ESTOU AQUI...
 
 #### <p> Oi, galera! Me chamo Nicolas, Estou de São Roque, São Paulo, em 2024. Gosto muito de jogos, Estou<br> estudando desenvolvimento de mobile, o que não tem nada a ver com o que eu realmente quero, mas<br> tenho um bom desempenho nos estudos na área de Android e estou me aprofundando em Kotlin.<br> Quando um familiar me recomendou, perguntei se valia a pena e ele falou que era grátis, então optei<br> por não perder a oportunidade de aprender o básico de Front-end e Back-end e aprimorar minhas<br> habilidades como DEV com as aulas da Alura. </p>
 
