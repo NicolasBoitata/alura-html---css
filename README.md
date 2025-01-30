@@ -13,11 +13,13 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="72" width="72" margin-botton="30"/>
 
-#😊
-Oi, galera! Me chamo Nicolas, Estou de São Roque, São Paulo, em 2024. Me interessei na área tech porque gosto muito de jogos desde pequena, mas, eu estou estudando e desenvolvimento para área de mobile, mesmo que seja muito atrativo, e sim com Back, estou estudando Java e me aprofundando em Kotlin com esse objetivo. Decidi fazer a imersão pra conhecer um pouco do Front para não ficar só parado.
-  
+# POR QUÊ ESTOU AQUI...
+
+#### <p> Oi, galera! Me chamo Nicolas, Estou de São Roque, São Paulo, em 2024. Gosto muito de jogos, Estou<br> estudando desenvolvimento de mobile, o que não tem nada a ver com o que eu realmente quero, mas<br> tenho um bom desempenho nos estudos na área de Android e estou me aprofundando em Kotlin.<br> Quando um familiar me recomendou, perguntei se valia a pena e ele falou que era grátis, então optei<br> por não perder a oportunidade de aprender o básico de Front-end e Back-end e aprimorar minhas<br> habilidades como DEV com as aulas da Alura. </p>
+
+
 <p>
-Este é o repositório do projeto **Imersão Front-End: Spotify** da **Alura**. O curso tem como objetivo ensinar conceitos de front-end enquanto desenvolvemos uma interface inspirada no Spotify.
+Este é o repositório do projeto **Imersão Front-End: Spotify** da **Alura**. O curso tem como objetivo ensinar conceitos de front-end enquanto desenvolvemos de uma interface.
 </p>
 
 ## 📈 Tecnologias utilizadas
