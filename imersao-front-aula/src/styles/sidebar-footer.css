@@ -7,6 +7,12 @@ body{
 
 }
 
+html, body {
+    overflow-x: hidden; /* Isso desativa o scroll horizontal */
+    width: 100%; /* Isso ajuda a garantir que a largura não ultrapasse a janela */
+}
+
+
 .sidebar{
     position:fixed;
     top:0;
@@ -200,10 +206,10 @@ li{
     right: 0;
     background: linear-gradient(to right, #ae2896, #509bf5);
     padding: 15px 40px;
-    display: flex
-;
+    display: flex;
     justify-content: space-between;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -251,13 +257,6 @@ body {
     --card15: rgb(60, 30, 80);
     --font-dm-sans: "DM Sans", sans-serif;
 }
-.disclaimer-premium .disclaimer-premium__title {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 12px;
-    margin-bottom: 10px;
-}
 
 .disclaimer-premium .text {
     flex-shrink: 0;
@@ -267,6 +266,14 @@ body {
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
 .disclaimer-premium button{
@@ -287,12 +294,12 @@ body {
 /*PlayList */
 /* importanter para ver menu de Play */
 .playlist-container{
-height: 68vh;
-padding-top: 16px;
-margin: 10px;
-margin-left: 330px;
-border-radius: 10px;
-background-color: #121212;
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    margin-left: 330px;
+    border-radius: 10px;
+    background-color: #121212;
 }
 
 .playlist {
