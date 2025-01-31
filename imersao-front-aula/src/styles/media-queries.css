@@ -46,17 +46,17 @@
   .offer__list-item {
     grid-template-columns: 1fr;
 
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 20px; */
+    /* margin: 0;
+    padding: 0; */
 }
 
   .offer__scroll-container {
     overflow-y: visible;
 
-    /* margin: 0;
-    padding: 0; */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px; */
   }
 }
 
@@ -67,6 +67,6 @@
         }
 
         .offer__list-item  {
-                grid-template-columns: 3fr;
+                grid-template-columns: 1fr;
         }
     } */
