@@ -5,25 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
-    
-    <link rel="stylesheet" href="src/styles/reset.css">
-    <link rel="stylesheet" href="src/styles/main-content.css">
-    <link rel="stylesheet" href="src/styles/vars.css">
-    <link rel="stylesheet" href="src/styles/sidebar-footer.css">
-    <link rel="stylesheet" href="src/styles/media-queries.css">
-    <link rel="shortcut icon" href="src/assets/icons/favicon.svg" type="image/x-icon">
 
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+
 </head>
 
 <body>
-     <!-- imersão 2  -->
     <div class="sidebar">
-     <!-- imersão 1  -->
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
@@ -45,9 +42,6 @@
                 </li>
             </ul>
         </nav>
-     <!-- imersão 1  -->
-
-
         <div class="library">
             <div class="library__content">
                 <button class="library__button">
@@ -76,34 +70,28 @@
             </div>
         </div>
     </div>
-
-     <!-- imersão 2  -->
-
-     <!-- imersão 3  -->
-     <main>
+    <main>
         <div class="main-container">
             <nav class="header__navigation">
                 <div class="navigation">
                     <button class="arrow-left">
-                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                        <img src="./src/assets/icons/small-left.png" alt="" />
                     </button>
                     <button class="arrow-right">
-                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                        <img src="./src/assets/icons/small-right.png" alt="" />
                     </button>
                 </div>
                 <div class="header__search">
-                    <img src="./src/assets/icons/search.png" alt="">
-                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                    <img src="./src/assets/icons/search.png" alt="" />
+                    <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
+                        placeholder="O que você quer ouvir?" value="" />
                 </div>
                 <div class="header__login">
                     <button class="subscribe">Inscreva-se</button>
                     <button class="login">Entrar</button>
                 </div>
             </nav>
-        </div>
 
-
-     <!-- imersão 4  -->
             <!-- PLAYLIST -->
             <div class="playlist-container">
                 <div id="result-playlists">
@@ -260,25 +248,6 @@
 
             </div>
         </div>
-     <!-- imersão 4  -->
-
-
-
-
-        <!-- DESAFIO -->
-            <!-- PlayList -->
-        <!-- <div class="playlist-container">
-            <div id="result-playlists">
-                <div class="playlist">
-                    <h1 id="greeting">Boas vindas</h1>
-                    <h2 class="greeting-subtitle">Navegar por todas as seções</h2>
-                </div> -->
-            <!-- LISTA DE CARDS -->
-
-            <!-- </div>
-        </div> -->
-        <!-- DESAFIO -->
-
     </main>
     <footer class="disclaimer-premium">
         <div class="text">
@@ -292,10 +261,7 @@
             <button type="button">Inscreva-se grátis</button>
         </div>
     </footer>
-     <!-- imersão 3  -->
-     <!-- imersão 4  -->
-      <script type="text/javascript" src="script.js"></script>
-     <!-- imersão 4  -->
-
+    <script src="script.js" type="text/javascript"></script>
 </body>
+
 </html>

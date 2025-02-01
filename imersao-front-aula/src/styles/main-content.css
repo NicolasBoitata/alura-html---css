@@ -140,6 +140,7 @@
 
 .offer__scroll-container {
     max-height: 43vh;
+    min-width: 95%;
     margin: 24px;
     overflow-y: auto;
 
@@ -363,6 +364,49 @@
 #result-artist {
   padding: 20px 40px;
 }
+
+/* #result-playerlist {
+  background: transparent;
+} */
+
 /* FIM CARD ARTISTA */
 
 /* imersão 3  */
+
+#scrollable-container {
+  overflow-y: scroll; /* Barra de rolagem sempre visível */
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #f1f1f1 transparent; /* Verde para o polegar e cinza claro para a trilha */
+  
+  
+  /* WebKit (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+      width: 10px; /* Largura da barra de rolagem */
+      
+  }
+
+  ::-webkit-scrollbar-track {
+      background: transparent; /* Cor da trilha  */
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background-color: #ff0000; /* Cor do polegar */
+      border-radius: 5px; /* Borda arredondada */
+  }
+  #scrollable-container {
+    overflow-y: scroll;
+    /* Outras propriedades */
+  }
+  
+  /* Esconde as setas com overflow */
+  #scrollable-container::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+}
+
+/* Para garantir conteúdo suficiente para rolagem */
+.content {
+  height: 400px; /* Altura maior que o container */
+}
