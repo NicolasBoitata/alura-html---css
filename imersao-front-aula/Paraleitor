@@ -1,0 +1,9 @@
+Use esté comando para acessar o busca
+
+json-server --watch imersao-front-aula/api-artists/artists.json --port 3000
+
+utileze ctrl + ' para acessar o bloco de comando, e depois coloque no terminal GITBASH
+
+Se não tiver funcionando, instale-o NPM
+
+npm i json-server -g
