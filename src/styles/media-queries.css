@@ -37,14 +37,11 @@
 }
 
 .offer__scroll-container {
-
   width: 90%;
-   
-
 }        
 
 
-@media (max-width: 1350px) {
+@media (max-width: 1450px) {
     .offer__list {
       font-size: 18px;
   }
@@ -74,7 +71,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 740px) {
     .offer__list {
       font-size: 18px;
 }

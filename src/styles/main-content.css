@@ -265,15 +265,17 @@
 .hidden {
   display: none;
 }
-
+/* playlist-container também tem mais controle no tamnho dos cards*/
 .grid-container {
   grid-gap:24px;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  min-width: 767px;
+  min-width: 967px;
 }
-
+/* playlist-container também tem mais controle no tamnho dos cards*/
 .artist-card {
+  /* height: auto;
+  width: auto; */
   background: #181818;
   border-radius: 8px;
   -ms-flex: 1;
@@ -282,7 +284,7 @@
   padding: 16px;
   position: relative;
   transition: background-color 0.3s ease;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .artist-card:hover {
@@ -362,6 +364,9 @@
 }
 
 #result-artist {
+  /* height: 300px;
+  width: 300px; */
+
   padding: 20px 40px;
 }
 
@@ -405,3 +410,56 @@
 .content {
   height: 400px; /* Altura maior que o container */
 }
+
+.B-div {
+  padding: 30px;
+  margin-left: 300px;
+  background-color: #1db954;
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+
+
+/* Estilos gerais */
+.hidden { display: none; }
+  /* Layout dos containers de resultados */
+#result-artist, #similar-artist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Colunas responsivas */
+  gap: 16px; /* Espaçamento entre os cards */
+  padding: 16px;
+}
+
+/* Linha divisória com texto */
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #444; /* Cor e espessura da linha */
+}
+
+.divider-text {
+  padding: 0 16px; /* Espaçamento entre o texto e as linhas */
+  color: #b3b3b3; /* Cor do texto */
+  font-size: 14px;
+  font-weight: bold;
+}      
+
+/* Estilo dos cards de artistas */
+.artist-card {
+  background-color: #282828;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+            
